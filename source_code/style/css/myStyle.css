@@ -1,0 +1,81 @@
+
+body {
+background-color:  white;
+color: #f7f7f7;
+font-family: 'Montserrat', sans-serif;
+}
+h1, h2 {
+font-weight: bold;
+}
+p {
+font-size: 16px;
+color: #cdcdcd;
+}
+.navbar {
+margin-bottom: 0;
+}
+.jumbotron {
+background-color: white;
+color: white;
+text-align: center;
+}
+.jumbotron p {
+color: white;
+font-size: 26px;
+}
+.navbar-inverse {
+background: white;
+border: 0;
+}
+.dropdown-menu {
+background: #2E2F31;
+border-radius: 0;
+border: 0;
+}
+.navbar-inverse .navbar-nav li a {
+color: #f7f7f7;
+font-size: 16px;
+}
+.navbar-inverse .navbar-nav li a:hover {
+background: white;
+}
+.navbar-inverse .navbar-nav .dropdown-menu li a:hover {
+background: white;
+}
+.dropdown-menu li a {
+padding: 10px;
+}
+.btn-primary {
+color: #fff;
+background-color: transparent;
+border-color: white;
+margin-bottom: 5px;
+}
+.btn-primary:hover {
+color: #27A967;
+background-color: white;
+border-color: white;
+}
+.glyphicon-large {
+margin-top: 30px;
+font-size: 100px;
+}
+.call-to-action {
+text-align: center;
+}
+.call-to-action p {
+margin-bottom: 30px;
+font-family: monospace;
+}
+.col-md-12{
+  padding: 5px;
+}
+footer{
+ text-align: center;
+}
+.col-md-4{
+  height: 300px;
+}
+.col-md-2{
+  padding:right 10px;
+}

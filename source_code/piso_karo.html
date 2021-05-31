@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Senjata Tradisional</title>
+		<link rel="stylesheet" href="https://rojokundo.xyz/Budayaku/asset/css/materialize.min.css">
+		<link rel="stylesheet" href="https://rojokundo.xyz/Budayaku/asset/fonts/material-icons/material-icons.css">
+        <link rel="stylesheet" href="style/style.css">
+	    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+	    <link rel="stylesheet" href="style/bootstrap/font-awesome.min.css">
+	    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="style/css/style.css">
+	    <link rel="stylesheet" href="style/bootstrap/bootstrap1.min.css">
+	
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    
+    <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+		<style type="text/css">
+		  nav.container.transparent.z-depth-0 {
+		    left: 0;
+		    position: absolute;
+		    top: 0;
+		    right: 0;
+		  }
+
+		  .carousel-slider{
+		    max-height: 450px;
+		  }
+
+		  #outer-wrapper{
+		  		padding-right: 25px;
+    			padding-left: 25px;
+		  	    border: 1px solid #ddd;
+		  }
+		</style>
+	</head>
+	<body>
+		<script src="https://rojokundo.xyz/Budayaku/asset/js/jquery.min.js"></script>
+  	<script src="https://rojokundo.xyz/Budayaku/asset/js/materialize.min.js"></script>
+	<header class="perapih">
+	   <div class="carousel carousel-slider center" data-indicators="true">
+        <a class="carousel-item" href="#one!"><img src="kultur.jpg"></a>
+	    <a class="carousel-item" href="#one!"><img src="tutur.jpg"></a>
+	    <a class="carousel-item" href="#three!"><img src="adat.jpg"></a>
+        <a class="carousel-item" href="#three!"><img src="galegale.jpeg"></a>
+	  </div>
+	    <nav class="container transparent z-depth-0">
+    <div class="nav-wrapper z-depth-0">
+      <a href="index.html" style="padding-left:20px;" class="brand-logo">HORAS</a>
+      <ul id="nav-mobile" style="padding-left:200px;" class="left hide-on-med-and-down">
+        <a></a>
+              <li><a href="sejarah.html">Sejarah</a></li>
+              <li><a href="partuturan.html">Partuturan</a></li>
+        <li><a class='dropdown-button' href='#' data-activates='dropdown1'>Budaya</a></li>
+        <ul id='dropdown1' class='dropdown-content transparent'>
+		    <li><a class="white-text" href="rumah_adat.html">Rumah Adat</a></li>
+		    <li><a class="white-text" href="pakaian_adat.html">Pakaian Adat</a></li>
+		    <li><a class="white-text" href="senjata_tradisional.html">Senjata Tradisional</a></li>
+            <li><a class="white-text" href="alat_musik.html">Alat Musik</a></li>
+            <li><a class="white-text" href="makanan_khas.html">Makanan Khas</a></li>
+		  </ul>
+      	</ul>
+      	</ul>
+      </div>
+  </nav>
+</header>
+
+<div>
+	<center><hr><h1><b>Piso Karo</b></h1><hr></center><br>
+	<p>Menurut sejarah senjata ini sudah ada sejak abad ke 19. Tidak hanya itu, panjang piso karo juga bervariasi mulai dari 31 hingga 55 cm. Untuk pegangannya pisau ini terbuat dari kayu rotan dan gading serta sarungnya ditutupi oleh bahan perak dan suasa (logam campuran emas dengan tembaga).
+        Jika pisau gading dibuat dari gading gajah yang diukir, piso karo justru hanya dibuat dengan kayu dan tanpa ukiran. Keunikannya terletak pada ujung pegangan yang bercabang dan sarungnya yang dilengkapi dengan perak dan suasa sebagai pamor. 
+    </p>
+	<center><img src="img/senjata/piso_karo.jpg" width="20%"></center><br><br>
+
+</div>
+
+<footer class="page-footer grey darken-4">
+  <div class="container">
+    <div class="row">
+      <div class="col l6 s12">
+        <h5 class="white-text">Budayaku BATAK</h5>
+        <p class="grey-text text-lighten-4">Suku Batak merupakan salah satu suku bangsa terbesar di Indonesia, berdasarkan sensus dari Badan Pusat Satistik pada tahun 2010.</p>
+      </div>
+      <div class="col l4 offset-l2 s12">
+        <h5 class="white-text">Informasi</h5>
+        <ul>
+          <li><a href="informasi_kuliner.html" class="grey-text text-lighten-3">Informasi Kuliner</a></li>
+          <li><a href="informasi_wisata.html" class="grey-text text-lighten-3">Informasi Wisata</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <div class="footer-copyright">
+    <div class="container">
+      © 2021 Budayaku
+      <a href="#" class="grey-text text-lighten-4 right">Raja Batak</a>
+    </div>
+  </div>
+</footer>
+<script type="text/javascript">
+
+  $(document).ready(function(){
+
+      //$('.carousel.carousel-slider').carousel({fullWidth: true}).style.height = window.innerHeight + "px";
+      $('.carousel.carousel-slider').carousel({fullWidth: true});
+      $('.carousel.carousel-slider').carousel();
+      setInterval(function() {
+        $('.carousel').carousel('next');
+      }, 4500); // every 2 seconds
+
+  });
+
+    $('.dropdown-button').dropdown({
+    inDuration: 300,
+    outDuration: 225,
+    constrainWidth: true, // Does not change width of dropdown to that of the activator
+    hover: true, // Activate on hover
+    gutter: 0, // Spacing from edge
+    belowOrigin: true, // Displays dropdown below the button
+  }
+);
+</script>
+<style>
+  body{
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+  }
+  main{
+    flex: 1 0 auto;
+  }
+</style>
+</body>
+</html>
